@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CRM", "CRM\", "{299DF22B-C845-4836-9AA2-13757EA91A83}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50613"
+		Debug.AspNetCompiler.PhysicalPath = "CRM\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50613\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50613"
+		Release.AspNetCompiler.PhysicalPath = "CRM\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50613\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50613"
+		SlnRelativePath = "CRM\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ePayment_API", "ePayment_API\ePayment_API.csproj", "{D552CD84-C364-4283-94B1-F168FAF028BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{299DF22B-C845-4836-9AA2-13757EA91A83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299DF22B-C845-4836-9AA2-13757EA91A83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299DF22B-C845-4836-9AA2-13757EA91A83}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{299DF22B-C845-4836-9AA2-13757EA91A83}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D552CD84-C364-4283-94B1-F168FAF028BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D552CD84-C364-4283-94B1-F168FAF028BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D552CD84-C364-4283-94B1-F168FAF028BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D552CD84-C364-4283-94B1-F168FAF028BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79B4FEC9-2F12-4529-ADA7-B31512D434BD}
+	EndGlobalSection
+EndGlobal
